@@ -1,32 +1,36 @@
-# Test Summary Report
+Manual Testing Summary — SauceDemo
 
-## Project Name
-Login Page Manual Testing
+Project Details
 
-## Test Environment
 - Website: SauceDemo
 - Testing Type: Manual Testing
+- Testing Area: Login and Checkout
 - Tool: Web Browser
+- Prepared By: Tisha Rathore
 
-## Test Execution Summary
+Login Testing Summary
 
 - Total Test Cases Executed: 6
 - Passed: 6
 - Failed: 0
 - Blocked: 0
 
-## Test Results
+Checkout Testing Summary
 
-1. TC_LOGIN_001 - Valid Credentials - Pass
-2. TC_LOGIN_002 - Invalid Password - Pass
-3. TC_LOGIN_003 - Empty Username and Password - Pass
-4. TC_LOGIN_004 - Invalid Username - Pass
-5. TC_LOGIN_005 - Password Masking - Pass
-6. TC_LOGIN_006 - Logout Functionality - Pass
+- Total Test Cases Executed: 8
+- Passed: 8
+- Failed: 0
+- Blocked: 0
 
-## Conclusion
+Overall Testing Summary
 
-All 6 executed test cases passed based on the observed results. No failures were found during these checks.
+- Total Test Cases Executed: 14
+- Passed: 14
+- Failed: 0
+- Blocked: 0
 
-## Prepared By
-Tisha Rathore
+Conclusion
+
+All 14 documented login and checkout test cases passed during the observed test execution. The tested login validation, checkout field validation, checkout overview, order confirmation and Back Home navigation behaved as expected.
+
+Note: Cart test cases are not included in these totals yet.
