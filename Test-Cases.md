@@ -43,8 +43,8 @@ TC_LOGIN_005: Password Masking
 TC_LOGIN_006: Logout
 
 - Steps: Log in successfully and click Logout.
-- Expected Result: The user should be logged out successfully.
-- Status: Not Executed
+- Expected Result: The user should be logged out and redirected to the login page.
+- Status: Pass
 
 3. Test Summary
 
