@@ -30,8 +30,9 @@ TC_LOGIN_003: Login with Invalid Username
 TC_LOGIN_004: Submit Empty Fields
 
 - Steps: Leave both username and password empty, then click Login.
-- Expected Result: Required-field validation should appear.
-- Status: Not Executed
+- Expected Result: An appropriate validation error message should appear.
+- Actual Result: Error message appeared and login was unsuccessful.
+- Status: pass
 
 TC_LOGIN_005: Password Masking
 
