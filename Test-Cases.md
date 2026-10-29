@@ -17,7 +17,8 @@ TC_LOGIN_002: Login with Invalid Password
 
 - Steps: Enter a valid username and an invalid password, then click Login.
 - Expected Result: An appropriate error message should appear.
-- Status: Not Executed
+- Actual Result: Error message appeared and login was unsuccessful.
+- Status: pass
 
 TC_LOGIN_003: Login with Invalid Username
 
