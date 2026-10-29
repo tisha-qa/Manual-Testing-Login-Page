@@ -10,7 +10,8 @@ TC_LOGIN_001: Login with Valid Credentials
 
 - Steps: Enter valid username and password, then click Login.
 - Expected Result: User should log in successfully.
-- Status: Not Executed
+- Actual Result: Products page opened successfully after login.
+- Status: Pass
 
 TC_LOGIN_002: Login with Invalid Password
 
