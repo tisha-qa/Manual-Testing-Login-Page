@@ -15,16 +15,17 @@ TC_LOGIN_001: Login with Valid Credentials
 
 TC_LOGIN_002: Login with Invalid Password
 
-- Steps: Enter a valid username and an invalid password, then click Login.
+- Steps: Enter a valid an invalid password, then click Login.
 - Expected Result: An appropriate error message should appear.
 - Actual Result: Error message appeared and login was unsuccessful.
 - Status: pass
 
 TC_LOGIN_003: Login with Invalid Username
 
-- Steps: Enter an invalid username and a valid password, then click Login.
-- Expected Result: Login should fail and an appropriate error message should appear.
-- Status: Not Executed
+- Steps: Enter an invalid username, and a valid password then click Login.
+- Expected Result:  an appropriate error message should appear.
+- Actual Result: Error message appeared and login was unseuccessful.
+- Status: pass
 
 TC_LOGIN_004: Submit Empty Fields
 
