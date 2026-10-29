@@ -18,27 +18,27 @@ TC_LOGIN_002: Login with Invalid Password
 - Steps: Enter a valid an invalid password, then click Login.
 - Expected Result: An appropriate error message should appear.
 - Actual Result: Error message appeared and login was unsuccessful.
-- Status: pass
+- Status: Pass
 
 TC_LOGIN_003: Login with Invalid Username
 
 - Steps: Enter an invalid username, and a valid password then click Login.
 - Expected Result:  an appropriate error message should appear.
 - Actual Result: Error message appeared and login was unseuccessful.
-- Status: pass
+- Status: Pass
 
 TC_LOGIN_004: Submit Empty Fields
 
 - Steps: Leave both username and password empty, then click Login.
 - Expected Result: An appropriate validation error message should appear.
 - Actual Result: Error message appeared and login was unsuccessful.
-- Status: pass
+- Status: Pass
 
 TC_LOGIN_005: Password Masking
 
 - Steps: Enter a password in the password field.
-- Expected Result: The password should be masked.
-- Status: Not Executed
+- Expected Result: The password should be masked and displayed as dots or bullets.
+- Status: Pass
 
 TC_LOGIN_006: Logout
 
